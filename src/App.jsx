@@ -15,7 +15,6 @@ function App() {
     const data = await rest.json();
     console.log(data.slip.advice );
     setAdvice(data.slip.advice);
-    
   }
   return (
     <>
